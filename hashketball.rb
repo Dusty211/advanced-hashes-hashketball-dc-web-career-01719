@@ -119,8 +119,6 @@ def game_hash
   
 end
 
-test save
-
 
 def good_practices
   game_hash.each do |location, team_data|
