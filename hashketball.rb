@@ -121,7 +121,7 @@ end
 
 def stat_puller(player, stat)
   game_hash.each do |location, team_data|
-    puts "hey" if team_data[:players].keys.include? "player"
+    puts "hey" if team_data[:players].keys.include? player
     #binding.pry
   end
 end
