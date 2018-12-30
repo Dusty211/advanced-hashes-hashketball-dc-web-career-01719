@@ -120,7 +120,9 @@ def game_hash
 end
 
 def stat_puller(player, stat)
-  
+  game_hash.each do |location, team_data|
+    binding.pry
+  end
 end
 
 def good_practices
