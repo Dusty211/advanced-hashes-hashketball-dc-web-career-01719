@@ -125,7 +125,7 @@ def stat_puller(player, stat)
   end
 end
 
-stat_puller()
+stat_puller("Jeff Adrien", :slam_dunks)
 
 def good_practices
   game_hash.each do |location, team_data|
