@@ -119,6 +119,9 @@ def game_hash
   
 end
 
+def stat_puller(player, stat)
+  
+end
 
 def good_practices
   game_hash.each do |location, team_data|
